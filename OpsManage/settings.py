@@ -1,3 +1,6 @@
+#coding:utf-8
+
+
 """
 Django settings for OpsManage project.
 
@@ -97,6 +100,11 @@ ROOT_URLCONF = 'OpsManage.urls'
 #     },
 # ]
 
+
+
+'''
+1)DIRS可以设置两个路径吗？
+'''
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

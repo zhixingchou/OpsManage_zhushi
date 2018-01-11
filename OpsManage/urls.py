@@ -1,3 +1,6 @@
+#coding:utf-8
+
+
 """OpsManage URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -22,6 +25,10 @@ from OpsManage.restfull import (assets_api,cron_api,deploy_api,
                                 ansible_api,users_api,logs_api)
 
 
+'''
+1）自定义url没有include
+2）format_suffix_patterns 用于rest_framework
+'''
 urlpatterns = [
     url(r'^$',index.index),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
