@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9d83d316-b0d5-4a18-99ab-bb5e4aeee10f" name="OpsManage_zhushi" url="http://192.168.2.22">
+        <fileTransfer host="192.168.2.22" port="1032" rootFolder="/tmp/OpsManage_zhushi" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="1032" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
